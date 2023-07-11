@@ -11,11 +11,19 @@ use App\Models\Transparencia;
 use App\Models\User;
 use App\Notifications\EnviarContacto;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Session;
 
 class WelcomeController extends Controller
 {
     public function index() {
+        // Artisan::call('cache:clear');
+        // Artisan::call('config:clear');
+        // Artisan::call('config:cache');
+        // Artisan::call('storage:link');
+        // Artisan::call('key:generate');
+        // Artisan::call('migrate:fresh --seed');
+        
         $slider=Slider::where('vista','SI')->latest()->take(5)->get();
         $data = array(
             'sliders'=>$slider,
