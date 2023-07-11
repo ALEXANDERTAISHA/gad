@@ -38,7 +38,7 @@ Route::get('/transparencia-rendicion-cuentas/{anio}', [WelcomeController::class,
 Route::get('/contacto', [WelcomeController::class,'contacto'])->name('contacto');
 Route::post('/enviar-contacto', [WelcomeController::class,'contactoEnviar'])->name('contactoEnviar');
 //debe poner false al ultimo del codigo cuando ya tiene creado el usuario Auth::routes(['register' => true]);
- Auth::routes(['register' => true]);
+ Auth::routes(['register' => false]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
