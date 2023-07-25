@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
     <head>
         <!--====== Required meta tags ======-->
         <meta charset="utf-8">
