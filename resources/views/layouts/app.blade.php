@@ -42,7 +42,7 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ route('inicio') }}">
+        <meta property="og:url" content="{{ route('welcome') }}">
         <meta property="og:title" content="{{ config('app.name','') }}">
         <meta property="og:description" content="Gobierno Autónomo Descentralizado Parroquial Rural 16 de Agosto">
         <meta property="og:keywords" content="Gobierno Autónomo,
@@ -73,7 +73,7 @@
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="{{ route('inicio') }}">
+        <meta property="twitter:url" content="{{ route('welcome') }}">
         <meta property="twitter:title" content="{{ config('app.name','') }}">
         <meta property="twitter:description" content="Gobierno Autónomo Descentralizado Parroquial Rural 16 de Agosto">
         <meta property="twitter:keywords" content="Gobierno Autónomo,
