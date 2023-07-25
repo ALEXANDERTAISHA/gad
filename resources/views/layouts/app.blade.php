@@ -10,6 +10,97 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!--====== Title ======-->
         <title>{{ config('app.name', 'Laravel') }}</title>
+        {{-- metas para seo --}}
+        <meta name="author" content="{{ config('app.name','') }}">
+        <meta name="title" content="{{ config('app.name','') }}">
+        <meta name="description" content="Gobierno Autónomo Descentralizado Parroquial Rural 16 de Agosto">
+        <meta name="keywords" content="Gobierno Autónomo,
+        Descentralizado,
+        Parroquial,
+        Rural,
+        16 de Agosto,
+        Administración Local,
+        Gestión Pública,
+        Participación Ciudadana,
+        Desarrollo Comunitario,
+        Servicios Públicos,
+        Planificación Territorial,
+        Infraestructuras Rurales,
+        Desarrollo Sostenible,
+        Políticas Locales,
+        Presupuesto Participativo,
+        Inclusión Social,
+        Mejora de la Calidad de Vida,
+        Promoción Cultural,
+        Conservación del Medio Ambiente,
+        Fortalecimiento Institucional,
+        Turismo,
+        Palora,
+        Cantón,
+        Parroquia,
+        ">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ route('inicio') }}">
+        <meta property="og:title" content="{{ config('app.name','') }}">
+        <meta property="og:description" content="Gobierno Autónomo Descentralizado Parroquial Rural 16 de Agosto">
+        <meta property="og:keywords" content="Gobierno Autónomo,
+        Descentralizado,
+        Parroquial,
+        Rural,
+        16 de Agosto,
+        Administración Local,
+        Gestión Pública,
+        Participación Ciudadana,
+        Desarrollo Comunitario,
+        Servicios Públicos,
+        Planificación Territorial,
+        Infraestructuras Rurales,
+        Desarrollo Sostenible,
+        Políticas Locales,
+        Presupuesto Participativo,
+        Inclusión Social,
+        Mejora de la Calidad de Vida,
+        Promoción Cultural,
+        Conservación del Medio Ambiente,
+        Fortalecimiento Institucional,
+        Turismo,Palora,
+        Cantón,
+        Parroquia,">
+
+        <meta property="og:image" content="{{ asset('assets/images/logo.png') }}">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ route('inicio') }}">
+        <meta property="twitter:title" content="{{ config('app.name','') }}">
+        <meta property="twitter:description" content="Gobierno Autónomo Descentralizado Parroquial Rural 16 de Agosto">
+        <meta property="twitter:keywords" content="Gobierno Autónomo,
+        Descentralizado,
+        Parroquial,
+        Rural,
+        16 de Agosto,
+        Administración Local,
+        Gestión Pública,
+        Participación Ciudadana,
+        Desarrollo Comunitario,
+        Servicios Públicos,
+        Planificación Territorial,
+        Infraestructuras Rurales,
+        Desarrollo Sostenible,
+        Políticas Locales,
+        Presupuesto Participativo,
+        Inclusión Social,
+        Mejora de la Calidad de Vida,
+        Promoción Cultural,
+        Conservación del Medio Ambiente,
+        Fortalecimiento Institucional,
+        Turismo,Palora,
+        Cantón,
+        Parroquia,">
+        <meta property="twitter:image" content="{{ asset('assets/images/logo.png') }}">
+
          
 
         <!--====== Favicon Icon ======-->
