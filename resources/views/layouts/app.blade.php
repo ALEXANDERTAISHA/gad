@@ -104,7 +104,8 @@
          
 
         <!--====== Favicon Icon ======-->
-        <link rel="shortcut icon" href="{{ asset('assets/images/logo.png') }}" type="image/png">
+        <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
+        <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
         <!--====== Google Fonts ======-->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <!--====== Flaticon css ======-->
