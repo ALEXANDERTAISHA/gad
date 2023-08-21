@@ -1,2 +1,0 @@
--Instalar XAMPP control panel v3.3.0
--PHP 8.2.4
